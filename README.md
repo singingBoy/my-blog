@@ -1,6 +1,10 @@
 # my-blog
 
-> a vue blog
+> 个人博客：使用vue全家桶搭建
+
+----
+
+> iconfont: http://iconfont.cn/manage/index?manage_type=myprojects&projectId=649183
 
 ## Build Setup
 
@@ -34,3 +38,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 > 端口号动态改变
 
 > ✔ 多页面配置（ 2018-04-30 22:29:07 ）
+
+> ✔ svg icon（ 2018-05-01 17:41:53 ）
