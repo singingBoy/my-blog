@@ -41,18 +41,23 @@
           </a>
           <div>
             <i></i>
-            <a href="">前端路线</a>
-            <a href="">后端路线</a>
+            <a target="_blank" href="/direction.html?type=web">前端路线</a>
+            <a target="_blank" href="/direction.html?type=java">后端路线</a>
           </div>
         </li>
       </ul>
     </div>
     <div class="header-right flex-mid">
-      <div class="header-search">搜索</div>
+      <div class="header-search flex-mid">
+        <div class="header-search-inputDiv">
+          <input placeholder="搜索" autofocus v-model="keywords"/>
+        </div>
+        <span class="search-title" @click="onSearch">搜索</span>
+      </div>
       <ul class="flex-mid">
         <li class="map">
           <a class="flex-mid">
-            <svg-icon icon-style="width:15px;height:15px" icon-name="icon-mobile"/>
+            <svg-icon icon-style="width:15px;height:15px;fill:#000" icon-name="icon-mobile"/>
             D-App
           </a>
         </li>

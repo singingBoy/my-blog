@@ -80,6 +80,40 @@
 
   }
   .header-right{
-
+    .header-search{
+      line-height: 60px;
+      min-width: 50px;
+      padding: 0 10px;
+      cursor: pointer;
+      .header-search-inputDiv{
+        display: none;
+      }
+      .search-title{
+        text-decoration: underline;
+      }
+    }
+    .header-search:hover{
+      .search-title{
+        font-size: 10px;
+        color: orange;
+        margin-left: 10px;
+      }
+      .search-title:after{
+       content: '✔';
+      }
+      .header-search-inputDiv{
+        display: block;
+        input{
+          border-color: orange;
+          color: orange;
+        }
+      }
+    }
+    input{
+      height: 30px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 0 10px;
+    }
   }
 }
