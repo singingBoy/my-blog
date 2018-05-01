@@ -83,7 +83,7 @@
   </div>
 </template>
 
-<script src="./hello.js"></script>
+<script src="./hello.js" />
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

@@ -7,6 +7,14 @@ import { getUrlParam } from '../../assets/lib/utils'
 Vue.config.productionTip = false
 
 const imgUrl = getUrlParam('type') === 'web' ? 'static/web.png' : 'static/java.jpg'
-appStart({
-  template: `<img style="width: 100%" src="${imgUrl}" />`
-})
+
+const template = `
+  <div>
+    <my-header />
+    <div style="padding-top: 60px;">
+      <img style="width: 100%" src="${imgUrl}" />
+    </div>
+  </div>
+`
+
+appStart({template})

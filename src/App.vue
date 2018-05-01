@@ -13,7 +13,7 @@
 
 <script>
 import VideoPlayer from './components/VideoPlayer'
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from './containers/HelloWorld'
 
 const localComponent = {
   template: '<div>我是局部组件,使用const申明</div>'
