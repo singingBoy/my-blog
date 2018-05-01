@@ -1,7 +1,7 @@
 <template>
   <header class="flex-mid my-header">
     <div class="header-left flex-mid">
-      <a class="header-log" title="Logo">
+      <a class="header-log" title="Logo" href="./">
         <img src="../../../assets/images/blog.ps.png"/>
       </a>
       <ul class="flex-mid">
@@ -41,8 +41,8 @@
           </a>
           <div>
             <i></i>
-            <a target="_blank" href="/direction.html?type=web">前端路线</a>
-            <a target="_blank" href="/direction.html?type=java">后端路线</a>
+            <a target="_blank" href="./direction.html?type=web">前端路线</a>
+            <a target="_blank" href="./direction.html?type=java">后端路线</a>
           </div>
         </li>
       </ul>

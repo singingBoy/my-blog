@@ -12,7 +12,7 @@ Vue.use(Router)
 * 1、配置mode，设置url是hash模式还是history模式
 * */
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     {
       path: '/',

@@ -19,7 +19,7 @@ npm test (run all tests)
 ```
 
 ## TODO
-> ✖ 端口号动态改变
+> ✔ 端口号动态占用+1
 
 > ✖ mobile 自适应
 
@@ -32,6 +32,8 @@ npm test (run all tests)
 > ✔ 多页面配置（ 2018-04-30 22:29:07 ）
 
 > ✔ svg icon（ 2018-05-01 17:41:53 ）
+
+> ✔ 按需集成Element-Ui（ 2018-05-01 23:24:07 ）
 
 ## Remind （开发过程中遇到的坑）
 
