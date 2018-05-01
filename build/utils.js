@@ -128,8 +128,6 @@ exports.htmlWPHelper = (htmlObj = {}, plugins = [], type='dev') => {
     const filePath = htmlObj[filename];
     const fileName = filePath.substring(filePath.lastIndexOf('/') + 1, filePath.length);
 
-    console.warn(type)
-
     /*HtmlWebpackPlugin 开发、生产模式配置项*/
     const htmlPlugin = type === 'dev'
       ? {
