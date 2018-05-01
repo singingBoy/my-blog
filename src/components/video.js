@@ -3,6 +3,14 @@ import * as Utils from '../assets/lib/utils'
 
 // 竖放视频：https://v.suv666.com/test/material/6a51588d802807be0993216537c29859.mp4
 // 正常视频：https://v.suv666.com/material/d5025707035da6d363afc9d248e28b22.mp4
+/**
+ * @example:
+  <video-player
+    source="https://v.suv666.com/material/d5025707035da6d363afc9d248e28b22.mp4"
+    min-height="14rem">
+ </video-player>
+***/
+
 export default {
   name: 'Video',
   data () {
