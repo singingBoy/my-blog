@@ -5,7 +5,8 @@
   height: 60px;
   width: 100%;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  background: #FFFFFF;
   border-bottom: 1px solid $border-color;
   z-index: 999;
   color: $font-color;
