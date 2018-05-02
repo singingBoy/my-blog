@@ -12,10 +12,10 @@
           </a>
           <div>
             <i></i>
-            <a v-for="article in articles" :key="article.id" :href="`./article.html?id=${article.id}`">
+            <a v-for="article in articles" :key="article.id" :href="`./article?id=${article.id}`">
               {{article.name}}
             </a>
-            <a href="./article.html">more...</a>
+            <a href="./article">more...</a>
           </div>
         </li>
         <li class="map">
@@ -28,7 +28,7 @@
             <a v-for="item in practices" :key="item.id" :title="item.dec" :href="`./practice.html?id=${item.id}`">
               {{item.name}}
             </a>
-            <a href="./practice.html">more...</a>
+            <a href="./practice">more...</a>
           </div>
         </li>
         <li class="map">
@@ -38,8 +38,8 @@
           </a>
           <div>
             <i></i>
-            <a target="_blank" href="./direction.html?type=web">前端路线</a>
-            <a target="_blank" href="./direction.html?type=java">后端路线</a>
+            <a target="_blank" href="./direction?type=web">前端路线</a>
+            <a target="_blank" href="./direction?type=java">后端路线</a>
           </div>
         </li>
       </ul>
