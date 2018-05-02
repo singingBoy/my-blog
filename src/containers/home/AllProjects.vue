@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <el-carousel :interval="4000" type="card" height="230px">
+    <el-carousel :interval="4000" type="card">
       <el-carousel-item v-for="item in projects" :key="item.id">
         <div :style="`background-image: url(${item.img})`">
           <h3>{{ item.dec }}</h3>
