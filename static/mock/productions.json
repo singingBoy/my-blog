@@ -1,0 +1,69 @@
+[{
+  "id": 11,
+  "name": "七色镜商城",
+  "img": "https://comirror-static.oss-cn-shenzhen.aliyuncs.com/2018/02/28/87228c0f-a2be-43fa-9a74-af6cce8496ee",
+  "url": "",
+  "type": [11],
+  "productions": [{
+    "type": "APP",
+    "img": "",
+    "git": ""
+  },{
+    "type": "Web后台管理",
+    "img": "",
+    "git": ""
+  },{
+    "type": "H5",
+    "img": "",
+    "git": ""
+  }],
+  "dec": "一个服装商场，RN、Web、H5端"
+},{
+  "id": 22,
+  "name": "个人博客",
+  "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525284225960&di=610b0ba29f4d756c09f1e827c85a6889&imgtype=0&src=http%3A%2F%2Feasyread.ph.126.net%2F6QLBoWx-97j9TH_5ShSNQg%3D%3D%2F7916847658339251207.jpg",
+  "url": "",
+  "type": [22, 33],
+  "productions": [{
+    "type": "WEB",
+    "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525283521085&di=55d62f326dbe81f40a30d01893e47633&imgtype=0&src=http%3A%2F%2Flivesino.net%2Fimages%2Ffarm35%2F-FieldOne_7D8E%2Ffieldone.-featurespng_thumb.png",
+    "url": "",
+    "git": ""
+  }],
+  "dec": "个人博客，开发进行中。主要webpack-Vue全家桶开发"
+},{
+  "id": 33,
+  "type": [33],
+  "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525283720774&di=3521afc70d5d8fdffd06de078d503cc5&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3932002071%2C3987829758%26fm%3D214%26gp%3D0.jpg",
+  "name": "Webpack-React-Redux脚手架",
+  "num": 10,
+  "dec": "Webpack React，参考dva进行封装Redux"
+},{
+  "id": 44,
+  "name": "免费小说App",
+  "type": [11,33, 55],
+  "git": "",
+  "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525283867379&di=91296280e20d65ec9ea4c9c0e7f28428&imgtype=0&src=http%3A%2F%2Fappimg.hicloud.com%2Fhwmarket%2Ffiles%2Fapplication%2Fscreenshut2%2Fe62a522242ae4b6489e60c6f66cf6535.jpg",
+  "url": "",
+  "productions": [{
+    "type": "App",
+    "img": "",
+    "url": "",
+    "git": ""
+  }],
+  "dec": "在线小说APP，免费、无广告，让小说看起来更带感"
+},{
+  "id": 55,
+  "name": "鲸客网",
+  "type": [77, 66],
+  "git": "",
+  "img": "http://whalkers123.oss-cn-shanghai.aliyuncs.com/data/1512713350219.jpg?Expires=1828073341&OSSAccessKeyId=LTAIrySo1zsvsU7C&Signature=z0aiLOwAlky6iBiDHl0hBzUtCVI%3D",
+  "url": "http://www.whalkers.com/",
+  "productions": [{
+    "type": "Web",
+    "img": "",
+    "url": "",
+    "git": ""
+  }],
+  "dec": "校园推广平台，让商家更容易推广、让学生得到更多兼职和社会提交"
+}]

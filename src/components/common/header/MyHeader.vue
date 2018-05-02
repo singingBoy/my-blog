@@ -12,12 +12,10 @@
           </a>
           <div>
             <i></i>
-            <a href="">React</a>
-            <a href="">Vue</a>
-            <a href="">HTML5、CSS3</a>
-            <a href="">Node</a>
-            <a href="">Canvas</a>
-            <a href="">more...</a>
+            <a v-for="article in articles" :key="article.id" :href="`./article.html?id=${article.id}`">
+              {{article.name}}
+            </a>
+            <a href="./article.html">more...</a>
           </div>
         </li>
         <li class="map">
@@ -27,11 +25,10 @@
           </a>
           <div style="left: -30px">
             <i></i>
-            <a href="">React实战</a>
-            <a href="">Vue实战</a>
-            <a href="">Canvas实战</a>
-            <a href="">H5实战</a>
-            <a href="">more...</a>
+            <a v-for="item in practices" :key="item.id" :title="item.dec" :href="`./practice.html?id=${item.id}`">
+              {{item.name}}
+            </a>
+            <a href="./practice.html">more...</a>
           </div>
         </li>
         <li class="map">

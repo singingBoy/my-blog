@@ -1,9 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <el-carousel :interval="4000" type="card" height="200px">
-      <el-carousel-item v-for="item in 6" :key="item">
-        <h3>{{ item }}</h3>
+    <el-carousel :interval="4000" type="card" height="230px">
+      <el-carousel-item v-for="item in projects" :key="item.id">
+        <div :style="`background-image: url(${item.img})`">
+          <h3>{{ item.dec }}</h3>
+        </div>
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -13,12 +14,31 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .el-carousel__item > div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    position: relative;
+  }
   .el-carousel__item h3 {
-    color: #475669;
-    font-size: 14px;
-    opacity: 0.75;
-    line-height: 200px;
+    color: #FFFFFF;
+    font-size: 12px;
     margin: 0;
+    padding: 10px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    word-break: break-word;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 1px;
+    text-shadow: 5px 1px 15px #ddd;
   }
 
   .el-carousel__item:nth-child(2n) {
