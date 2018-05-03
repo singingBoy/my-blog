@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <my-header></my-header>
-    <section style="padding-top: 60px;">
+    <div class="contain">
       <router-view/>
-    </section>
+    </div>
   </div>
 </template>
+<style lang="scss" scoped>
+  @import "./index.scss";
+</style>
 <script src="./app.js"></script>

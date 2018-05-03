@@ -2,12 +2,13 @@
 @import "../../../assets/styles/theme";
 
 .my-header {
-  height: 60px;
+  height: 72px;
   width: 100%;
   justify-content: space-between;
   position: fixed;
   background: #FFFFFF;
   border-bottom: 1px solid $border-color;
+  box-shadow: 0 2px 8px 0 rgba(7,17,27,.2);
   z-index: 999;
   color: $font-color;
   a{
@@ -33,7 +34,7 @@
   }
   ul > li.map:hover {
     cursor: pointer;
-    border-bottom: 2px solid $border-active-color;
+    //border-bottom: 2px solid $border-active-color;
     a:hover{
       color: $font-active-color;
     }
@@ -43,7 +44,7 @@
   }
   ul > li.map > div {
     position: absolute;
-    top: 61px;
+    top: 67px;
     left: -10px;
     border-radius:0 0 5px 5px;
     line-height: 28px;
@@ -53,6 +54,8 @@
     border: 1px solid $border-color;
     border-top: 0;
     display: none;
+    box-shadow: 0 8px 16px 0 rgba(7,17,27,.2);
+    box-sizing: border-box;
   }
   ul > li.map > div > i{
     background: url("../../../assets/icons/up-icon.png") no-repeat;

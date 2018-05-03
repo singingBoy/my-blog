@@ -1,0 +1,53 @@
+.projects{
+}
+
+.bg{
+  height: 90px;
+  opacity: .3;
+  filter: blur(100px);
+}
+
+.carouselBox{
+  box-shadow: 0 2px 8px 0 rgba(7,17,27,.06);
+  width: 1152px;
+  margin: 0 auto;
+}
+
+.el-carousel{
+  box-shadow: 0 12px 24px 0 rgba(7,17,27,.2);
+}
+
+.el-carousel__item > div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  position: relative;
+}
+.el-carousel__item h3 {
+  color: #FFFFFF;
+  font-size: 12px;
+  margin: 0;
+  padding: 10px;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  word-break: break-word;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 1px;
+  text-shadow: 5px 1px 15px #ddd;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}

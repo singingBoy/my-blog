@@ -1,7 +1,7 @@
 [{
   "id": 11,
   "name": "七色镜商城",
-  "img": "https://comirror-static.oss-cn-shenzhen.aliyuncs.com/2018/02/28/87228c0f-a2be-43fa-9a74-af6cce8496ee",
+  "img": "http://p85r1yna2.bkt.clouddn.com/qisejing-web.jpg",
   "url": "",
   "type": [11],
   "productions": [{
@@ -57,7 +57,7 @@
   "name": "鲸客网",
   "type": [77, 66],
   "git": "",
-  "img": "http://whalkers123.oss-cn-shanghai.aliyuncs.com/data/1512713350219.jpg?Expires=1828073341&OSSAccessKeyId=LTAIrySo1zsvsU7C&Signature=z0aiLOwAlky6iBiDHl0hBzUtCVI%3D",
+  "img": "http://p85r1yna2.bkt.clouddn.com/whalkers.jpg",
   "url": "http://www.whalkers.com/",
   "productions": [{
     "type": "Web",
